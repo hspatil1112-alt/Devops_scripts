@@ -3,6 +3,6 @@
 #This file grant Jenkins and Ubuntu permission to Docker Demon
 
 sudo su - 
-usermod -aG docker jenkins
-usermod -aG docker ubuntu
-systemctl restart docker
+sudo usermod -aG docker jenkins
+sudo usermod -aG docker ubuntu
+sudo systemctl restart docker
