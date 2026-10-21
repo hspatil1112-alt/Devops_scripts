@@ -3,7 +3,7 @@
 
 set -x
 
-sudu apt update -y
+sudo apt update -y
 
 mkdir docker && cd docker 
 
